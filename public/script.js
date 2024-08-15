@@ -1,7 +1,6 @@
 function switchTab(tabName) {
     // Hide both sections
     document.getElementById('userGuide').style.display = 'none';
-    document.getElementById('configGuide').style.display = 'none';
 
     // Show the selected section
     document.getElementById(tabName).style.display = 'block';
